@@ -37,13 +37,13 @@ class Student extends Person {
         for(let i = 0; i <= this.favSubjects; i++) {
             console.log(this.favSubjects[i]);
         }
-    } // make sure this works -----------------------------------------
+    }
     PRAssignment(subject) {
         console.log(`${this.name} has submitted a PR for ${subject}`);
-    } // make sure this works -----------------------------------------
+    }
     sprintChallenge(subject) {
         console.log(`${this.name} has begun sprint challenge on ${subject}`);
-    } // make sure this works -----------------------------------------
+    }
 }
 
 class ProjectManagers extends Instructor {
@@ -60,3 +60,24 @@ class ProjectManagers extends Instructor {
     }
 }
 
+// Created 2 Instructor objects: dan, keiran
+
+const dan = new Instructor({
+    name: 'Dan',
+    age: 29,
+    location: 'Atlanta',
+    gender: 'male',
+    specialty: 'front-end design',
+    favLanguage: 'CSS',
+    catchPhrase: "Wait till you learn all about flex-box!"
+});
+
+const keiran = new Instructor({
+    name: 'Keiran',
+    age: 25,
+    location: 'Chicago',
+    gender: 'male',
+    specialty: 'JavaScript Classes',
+    favLanguage: 'JavaScript',
+    catchPhrase: "Not sure why the dog is barking.. he's ok."
+});
