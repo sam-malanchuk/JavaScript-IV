@@ -107,3 +107,26 @@ const brandon = new ProjectManagers({
     gradClassName: 'CS2',
     favInstructor: 'Keiran Kozlowski'
 });
+
+// Created 2 Student objects: anna, nick
+
+const anna = new Student({
+    name: 'Anna',
+    age: 23,
+    location: 'Greensville',
+    gender: 'female',
+    previousBackground: "none",
+    className: 'WEBPT5',
+    favSubjects: ['HTML', 'CSS', 'JavaScript']
+});
+
+const nick = new Student({
+    name: 'Nick',
+    age: 19,
+    location: 'Charlotte',
+    gender: 'male',
+    previousBackground: "HTML",
+    className: 'WEBPT6',
+    favSubjects: ['HTML', 'JavaScript', 'ReactJS']
+});
+
