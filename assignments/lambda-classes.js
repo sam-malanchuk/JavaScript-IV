@@ -81,3 +81,29 @@ const keiran = new Instructor({
     favLanguage: 'JavaScript',
     catchPhrase: "Not sure why the dog is barking.. he's ok."
 });
+
+// Created 2 ProjectManagers objects: ari, brandon
+
+const ari = new ProjectManagers({
+    name: 'Ari',
+    age: 24,
+    location: 'L.A.',
+    gender: 'male',
+    specialty: 'ReactJS',
+    favLanguage: 'JavaScript',
+    catchPhrase: "There is a lot more functionality when it comes to ReactJS.",
+    gradClassName: 'CS3',
+    favInstructor: 'Dan Frehner'
+});
+
+const brandon = new ProjectManagers({
+    name: 'Brandon',
+    age: 25,
+    location: 'Denver',
+    gender: 'male',
+    specialty: 'PHP',
+    favLanguage: 'WordPress',
+    catchPhrase: "You'll be doing it like this in the real world.",
+    gradClassName: 'CS2',
+    favInstructor: 'Keiran Kozlowski'
+});
