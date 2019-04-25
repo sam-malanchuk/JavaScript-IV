@@ -26,3 +26,23 @@ class Instructor extends Person {
     }
 }
 
+class Student extends Person {
+    constructor(obj) {
+        super(obj);
+        this.previousBackground = obj.previousBackground;
+        this.className = obj.className;
+        this.favSubjects = obj.favSubjects;
+    }
+    listsSubjects() {
+        for(let i = 0; i <= this.favSubjects; i++) {
+            console.log(this.favSubjects[i]);
+        }
+    } // make sure this works -----------------------------------------
+    PRAssignment(subject) {
+        console.log(`${this.name} has submitted a PR for ${subject}`);
+    } // make sure this works -----------------------------------------
+    sprintChallenge(subject) {
+        console.log(`${this.name} has begun sprint challenge on ${subject}`);
+    } // make sure this works -----------------------------------------
+}
+
