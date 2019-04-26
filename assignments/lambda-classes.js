@@ -34,8 +34,8 @@ class Student extends Person {
         this.favSubjects = obj.favSubjects;
     }
     listsSubjects() {
-        for(let i = 0; i <= this.favSubjects; i++) {
-            console.log(this.favSubjects[i]);
+        for(let key in this.favSubjects) {
+            console.log(this.favSubjects[key]);
         }
     }
     PRAssignment(subject) {
@@ -146,7 +146,7 @@ dan.demo('inline-block');
 keiran.grade(nick, 'JavaScript II');
 
 // Student methods tested
-anna.listsSubjects(); // not working.......................
+anna.listsSubjects();
 nick.PRAssignment('Preprocessing I');
 anna.sprintChallenge('Git for Web Development');
 
