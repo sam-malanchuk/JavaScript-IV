@@ -130,3 +130,26 @@ const nick = new Student({
     favSubjects: ['HTML', 'JavaScript', 'ReactJS']
 });
 
+// console.log() at least one different element in each object
+console.log(dan.favLanguage);
+console.log(keiran.catchPhrase); // showing as undefined although he has a catchPhrase
+console.log(ari.age);
+console.log(brandon.location);
+console.log(anna.className);
+console.log(nick.name);
+
+// Person method tested
+anna.speak();
+
+// Instructor methods tested
+dan.demo('inline-block');
+keiran.grade(nick, 'JavaScript II');
+
+// Student methods tested
+anna.listsSubjects(); // not working.......................
+nick.PRAssignment('Preprocessing I');
+anna.sprintChallenge('Git for Web Development');
+
+// ProjectManagers methods tested
+ari.standUp('#webpt6_5thday_ari');
+brandon.debugsCode(anna, 'JavaScript IV');
