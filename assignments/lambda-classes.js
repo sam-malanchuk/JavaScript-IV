@@ -16,7 +16,7 @@ class Instructor extends Person {
         super(obj);
         this.specialty = obj.specialty;
         this.favLanguage = obj.favLanguage;
-        this.catchPhrase - obj.catchPhrase;
+        this.catchPhrase = obj.catchPhrase;
     }
     demo(subject) {
         console.log(`Today we are learning about ${subject}`);
